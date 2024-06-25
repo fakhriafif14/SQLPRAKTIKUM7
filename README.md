@@ -10,32 +10,32 @@ MATKUL  : BASIS DATA
 # Sub Query
 ## Latihan
 
-![image](ss/ss1.png)
+![image](praktikum7/ss1.png)
 
 ### ERD
 
-![image](ss/ss7.png)
+![image](praktikum7/ss7.png)
 
 
-![image](ss/ss8.png)
+![image](praktikum7/ss8.png)
 
 
 ## TABEL DAN INPUT DATA
 
 #### TABEL KARYAWAN
-![image](ss/ss3.png)
+![image](praktikum7/ss3.png)
 
 #### TABEL DEPARTEMEN
-![image](ss/ss2.png)
+![image](/praktikum7/s2.png)
 
 #### TABEL PERUSAHAAN
-![image](ss/ss4.png)
+![image](praktikum7/ss4.png)
 
 #### TABEL PROJECT
-![image](ss/ss5.png)
+![image](praktikum7/ss5.png)
 
 #### TABEL PROJECT_DETAIL
-![image](ss/ss6.png)
+![image](praktikum7/ss6.png)
 
 ### MENGIDENTIFIKASI QUERY
 
@@ -53,7 +53,7 @@ WHERE k2.nama = 'Dika';
 output :
 
 
-![image](ss/ss9.png)
+![image](praktikum7/ss9.png)
 
 
 -- Tampilkan data karyawan yang gajinya lebih besar dari rata-rata gaji semua karyawan. Urutkan menurun berdasarkan besaran gaji.
@@ -67,7 +67,7 @@ ORDER BY gaji_pokok DESC;
 output :
 
 
-![image](ss/ss10.png)
+![image](praktikum7/ss10.png)
 
 
 
@@ -82,7 +82,7 @@ WHERE d.id_dept IN ( SELECT id_dept FROM karyawan WHERE nama LIKE '%K%' );
 output :
 
 
-![image](ss/ss11.png)
+![image](praktikum7/ss11.png)
 
 
 
@@ -97,7 +97,7 @@ WHERE d.id_p = 'P01';
 output :
 
 
-![image](ss/ss12.png)
+![image](praktikum7/ss12.png)
 
 
 -- Tampilkan nik dan nama karyawan untuk semua karyawan yang bekerja di departemen yang sama dengan karyawan dengan nama yang mengandung huruf 'K' dan gajinya lebih besar dari rata-rata gaji semua karyawan.
@@ -111,7 +111,7 @@ WHERE nama = 'Dika';
 output :
 
 
-![image](ss/ss13.png)
+![image](praktikum7/ss13.png)
 
 
 
