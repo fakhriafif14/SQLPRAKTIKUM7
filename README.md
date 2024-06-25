@@ -100,7 +100,6 @@ output :
 ![image](ss/ss12.png)
 
 
-
 -- Tampilkan nik dan nama karyawan untuk semua karyawan yang bekerja di departemen yang sama dengan karyawan dengan nama yang mengandung huruf 'K' dan gajinya lebih besar dari rata-rata gaji semua karyawan.
 ```sql
 SELECT nik, nama
